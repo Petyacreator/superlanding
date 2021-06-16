@@ -1,0 +1,149 @@
+.menu{
+    width: 200px;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 11px;
+    position: fixed;
+    height: 97%;
+}
+.menu h3{
+    color: white;
+    margin-top: 0px;
+}
+.menu a{
+    color: white;
+   display: inline-block;
+   width: 100%;
+   padding-left: 10px;
+   text-decoration: none;
+   margin-bottom: 10px;
+}
+body{
+    margin: 0px;
+    
+}
+.showcase,.text,.carto4ka,.spiski,.qqq {
+    margin-left: 334px;
+}
+/* ДЗ: сделать раздел showcase как на картинке
+для hr мысзадаем ширину в 95% и border: 5px solid blueviolet */
+hr{
+    width: 95%;
+    border: 5px solid blueviolet;
+    border-radius: 20px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: black;
+    font-size: 55px;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+ h2{ 
+    color: blueviolet;
+    font-size: 35px;
+}
+.images img{
+    width: 43%;
+     /* height: 230px; */
+    /* padding-left: 5px ;
+    padding-bottom: 8px;  */
+margin: 0.5%;
+border-radius: 8px;
+}
+.text p{
+    width: 95%;
+}
+.member{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.member img{
+    width: 300px;
+    border-radius: 20px;
+}
+.desc{
+    background-color: gray;
+    padding: 8px 0px ;
+    border-radius: 3px;
+}
+
+/* стили для списков начинаются тут */
+.qwerty{
+    list-style: none;
+    width: 40%;
+    padding: 0px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 15px;
+}
+/* это все элементы списков */
+.qwerty li{
+    background-color: lightgrey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* это первые строчки у списков */
+.qwerty li:nth-child(1){
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+}
+/* это строчка про деньги у списков */
+.qwerty li:nth-child(7){
+    padding: 60px;
+}
+/* это строчка с кнопкой */
+.qwerty li:last-child(){
+    background-color: brown;
+    border-radius: 10px;
+}
+
+/* это ссылки на последней строчке */
+.qwerty li a{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: blueviolet;
+    font-size: 20px;
+}
+/* это первая строчка второго списка */
+.qwerty li.ggg{
+    background-color: tomato;
+}
+/* ссылка на последней строчке второго списка */
+.qwerty .mmm a{
+    background-color: tomato;
+    color: white;
+}
+
+
+
+.ppp{
+    width: 84%;
+    padding: 1%;
+}
+.sub{
+    width: 86%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: blueviolet;
+    border-radius: 9px;
+    color: white;
+}
+.qqq{
+    padding-bottom: 100px;
+}
